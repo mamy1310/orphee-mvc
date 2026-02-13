@@ -7,11 +7,7 @@ class Router
     public function route()
     {
         $url = $_SERVER['REQUEST_URI'];
-        // echo '<pre>'; print_r($url); echo '</pre>';
-        // /PHP_orphee_18/PHPoo/CRUD_bibliotheque/controller/methode/arg1/arg2
-
-        // On enlève depuis la fin, les arguments potentiels
-        // strtok() va supprimer le ? et tout ce qu'il y a à la suite
+        
         $url = strtok($url, '?');
         // exemple :
         // Pour l'url : /PHP_orphee_18/PHPoo/CRUD_bibliotheque/controller/methode/arg1/arg2?indice1=123&indice2=abc

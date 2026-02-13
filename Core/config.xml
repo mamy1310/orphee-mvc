@@ -3,5 +3,5 @@
     <host>localhost</host>
     <user>root</user>
     <password>root</password>
-    <db>bibliotheque</db>
+    <db>forum</db>
 </config>
