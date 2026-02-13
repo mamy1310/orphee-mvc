@@ -25,7 +25,7 @@
    - Exécuter le fichier SQL : `SQL/forum.sql`
 
 4. **Vérifier l'accès**
-   - Mettre à jour l'URI de base quand on est en local dans `Core/Router.php`
+   - Mettre à jour l'URI de base quand on est en local dans `Core/Router.php` et `ROOT_URL`dans `index.php`
    - Accéder au site en local, ex: `http://localhost:8888/orphee/POO/TP-CRUD`
    - Créer un compte utilisateur
    - Utiliser le forum
