@@ -75,4 +75,4 @@
 - Ajouter un commentaire sur un post
 - Affichage chronologique
 - Voir l'auteur du commentaire
-- Suppression possible (amélioration future)
+- Modification/Suppression possible (amélioration future)
